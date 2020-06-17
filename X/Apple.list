@@ -1,0 +1,62 @@
+# 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
+# > Apple
+DOMAIN-SUFFIX,aaplimg.com,Apple
+DOMAIN-SUFFIX,apple.co,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,apple.com.cn,Apple
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,appstore.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,crashlytics.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud.com.cn,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN-SUFFIX,me.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN,www-cdn.icloud.com.akadns.net,Apple
+IP-CIDR,17.0.0.0/8,Apple
+
+# Apple_CDN.list
+# Apple Music
+host, aod.itunes.apple.com, Apple
+host, api.smoot.apple.cn, Apple
+host, music.apple.com, Apple
+host, mvod.itunes.apple.com, Apple
+# > App Store
+user-agent, com.apple.appstored*, Apple
+host-suffix, mzstatic.com, Apple
+host, iosapps.itunes.apple.com, Apple
+host, osxapps.itunes.apple.com, Apple
+# > Update
+host, supportdownload.apple.com, Apple
+host, appldnld.apple.com, Apple
+host, swcdn.apple.com, Apple
+host, apptrailers.itunes.apple.com, Apple
+host, updates-http.cdn-apple.com, Apple
+# > Map
+host-suffix, ls.apple.com, Apple
+host, gs-loc-cn.apple.com, Apple
+
+# Apple_API.list
+host-suffix, aaplimg.com, Apple
+host-suffix, apple.co, Apple
+host-suffix, apple.com, Apple
+host-suffix, apple-cloudkit.com, Apple
+host-suffix, appsto.re, Apple
+host-suffix, cdn-apple.com, Apple
+host-suffix, icloud.com, Apple
+host-suffix, icloud-content.com, Apple
+host-suffix, itunes.com, Apple
+host-suffix, me.com, Apple
+ip-cidr, 17.0.0.0/8, Apple
+ip-cidr, 63.92.224.0/19, Apple
+ip-cidr, 65.199.22.0/23, Apple
+ip-cidr, 139.178.128.0/18, Apple
+ip-cidr, 144.178.0.0/19, Apple
+ip-cidr, 144.178.36.0/22, Apple
+ip-cidr, 144.178.48.0/20, Apple
+ip-cidr, 192.35.50.0/24, Apple
+ip-cidr, 198.183.17.0/24, Apple
+ip-cidr, 205.180.175.0/24, Apple
+# Apple News
+host-suffix, apple.news, Apple
